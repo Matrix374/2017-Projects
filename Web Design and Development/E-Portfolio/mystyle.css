@@ -1,0 +1,380 @@
+/*CSS Reset */
+
+body, h1, h2, h3, p, ul, li, a{
+								margin: 0;
+								padding: 0;
+								border: 0;
+}
+
+/* Font-Family */
+
+h1, h2, h3, h4, p, a, li, td {
+	font-family: Arial;
+}
+
+/* text-styling */
+
+p{
+	text-indent: 30px;
+	line-height: 25px;
+}
+
+/* Accessibility - Skip to Content */
+
+#skip{
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+    
+#skip a:active, #skip a:focus, #skip a:hover{
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible; 
+}
+	
+
+/* Image Scalability */
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+/* Image Stylings */
+/* Index */
+
+.abtPic{
+	margin-top: 2vw;
+}
+
+/* Unit Comm 1 */
+
+.unitPic1{
+	display: block; 
+	margin: auto; 
+	width: 50%; 
+	margin-bottom: 3vw;
+}
+
+/* Unit Comm 2 */
+
+.unitPic2{
+	display: block; 
+	margin: auto; 
+	width: 80%; 
+	margin-bottom: 3vw;
+}
+
+/* Work Experience */
+
+.workPic{
+	display: block; 
+	margin: auto; 
+	width: 80%; 
+	margin-bottom: 2vw;
+}
+
+/* Body Colour */
+
+body {
+	background-color:#b3bdc6;
+}
+
+/* Container */
+
+#container{
+	padding: 0;
+	margin: 0 150px; /* Makes website more readable in larger screens by focusing text on center */
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+	float: left; /* To prevent other floating elements within container to not break */
+}
+
+/* Header */
+
+header{
+	background-color: #ffffff;
+	border: 0;
+	border-radius: 10px 10px 0 0;
+	margin-top: 20px;
+}
+
+header h1{
+	text-align: center;
+	padding: 40px 20px 20px 20px;
+	font-size: 50px;
+}
+
+/* Navigation Banner */
+
+nav{
+	background-color: #717993;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+}
+
+nav a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 2vw;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav li:hover{ /* Shades the background when mouse hovers over */
+	background-color: #454b60;
+}
+
+nav a:active{ /* Shades the anchor when mouse clicks on it */
+	color: #878787;
+}
+
+.highlight {
+	background-color: #5c6482;
+}
+
+/* Main */
+
+main{
+	background-color:#ffffff;
+	border: 0;
+	border-radius: 0 0 10px 10px;
+	height: 100%;
+	float: left;
+}
+	
+/* Article */
+
+article{
+	padding-left: 5vw;
+	padding-top: 2vw;
+	float: left;
+	width: 50%;
+}
+
+#workArticle { /* Center the Content of the Article */
+	display: block; 
+	width: 70%; 
+	margin-left: 7vw;
+}
+
+article h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#intro{
+	padding-top: 1vw;
+}
+
+#content{
+	margin-top: 2vw;
+	margin-bottom: 5vw;
+	padding-right: 1vw;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+/* Aside */
+
+#other{
+	float: right;
+	width: 30%;
+	margin: 4vw 0;
+	margin-right: 7.5vw;
+	padding-bottom: 2vw;
+	padding-top: 1vw;
+	border: 0;
+	border-radius: 15px;
+	background-color: #717993;
+}
+
+#other ul{
+	list-style-type: none;
+}
+
+#other h3, #other li{
+	text-align: center;
+	padding: 0.5vw 0;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+#other img{
+	height: 85%;
+	width: 85%;
+}
+
+#other table{
+	width: 75%;
+	margin: auto;
+	padding: 2px;
+	text-align: center;
+	background-color: #454b60;
+	border: 0;
+	border-radius: 10px;
+}
+
+/*Table Border Stylings*/
+
+.top-left-border {
+	border-radius: 10px 0 0 0;
+}
+
+.top-right-border {
+	border-radius: 0 10px 0 0; 
+	width:15%;
+}
+
+.bottom-left-border {
+	border-radius: 0 0 0 10px;
+}
+
+.bottom-right-border {
+	border-radius: 0 0 10px 0;
+}
+
+#other td{
+	border: 0;
+	padding: 8px 0;
+	margin: 3px 0;
+	background-color: #f2f9ff;
+	font-size: 14px;
+	font-weight: bold;
+	color: #272b3a;
+}
+
+/* Footer */
+
+footer{
+	height: 70px;
+	width: 100%;
+	float: left;
+	margin-left: 12%;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+
+#phone{
+	float: left;
+}
+
+#email{
+	float: left;
+	padding-left: 20px;
+}
+
+#phoneNum, #email a{
+	font-weight: bold;
+	color: #2f333f;
+}
+
+#email a:hover{
+	color: #526291;
+}
+
+/* Media Quiery */
+
+@media (max-width: 1000px){
+	
+	
+	/* Container */
+	
+	#container{
+		margin: 0; 
+		padding: 0; /* Whitespace removed as it doesn't help make the website more readable */
+		height: auto; /* text will change height when the screen width is around this size or lower */
+	}
+	
+	/* Header */
+	
+	header{
+		border-radius: 0;
+		margin: 0;
+		padding: 10px;
+		padding-top: 20px;
+	}
+	
+	header h1 {
+		font-size: 30px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	/* Navigation */
+	
+	nav ul{
+		margin: 0;
+	}
+	
+	nav li{
+		font-size: 10px;
+	}
+	
+	/* Main */
+	
+	main{
+		border-radius: 0;
+	}
+	
+	/* Article */
+	
+	article{
+		width: 55%;
+		padding-top: 4vw;
+	}
+	
+	article h2{
+		font-size: 14px;
+	}
+	
+	article p{
+		font-size: 12px;
+	}
+	
+	/* Aside - Other */
+	
+	#other h3, #other li, #other td{
+		font-size: 10px;
+	}
+	
+	/* Footer */
+	
+	footer{
+		margin: 0;
+		padding: 0;
+		margin-top: 20px;
+		margin-left: 20px;
+		height: 40px;
+	}
+	
+	footer li, footer a{
+		font-size: 12px;
+	}
+}

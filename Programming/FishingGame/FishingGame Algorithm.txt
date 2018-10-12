@@ -1,0 +1,107 @@
+Main()
+{	
+	enum GameState{
+	"Play", "Win", "Lose"
+	}
+
+	Player(
+)
+	FishSchool(sizeX, sizeY) 
+
+	void Update()
+	{
+		
+		switch (GameState)
+			
+		case "Play": GameRunning - PlayerMovement, EnemyMovement
+				break;
+		case "Lose": GameStopped, print "Game Over"
+				break;
+		case "Win" : GameStopped, print "You Win"
+				break;
+
+	}
+}
+
+Player()
+{
+	Constructor(posX, posY)
+	{
+	
+	}
+
+	Movement()
+
+	Draw?	
+
+	Render()
+
+	Update()
+	{
+		Render()
+		Movement()
+	}	
+}
+
+Hook()
+{
+	Hold DOWN to move Hook down
+	Release DOWN to bring it up
+	
+	Hook constructs itself everytime DOWN is made
+	Hook will Update along with player so there will be an update function
+}
+
+
+FishSchool()
+{
+	float fishPosX = 0;
+	float fishPosY = height;
+
+	Constructor(sizeX, sizeY)
+	{
+		y = sizeY ;
+		x = sizeX ;
+		SchoolSize [][] = new[y][x];
+	}
+	
+	Movement()
+
+	Render()
+
+	Update()
+	{
+		Render()
+		Movement()
+	}
+}
+
+FishDestroyer()
+{
+	Constructor()
+	
+	Movement()
+
+	Render()
+
+	Update()
+	{
+		Render()
+		Movement()
+	}
+}
+
+Bullet()
+{
+	Constructor()
+	
+	Movement()
+
+	Render()
+
+	Update()
+	{
+		Render()
+		Movement()
+	}
+}

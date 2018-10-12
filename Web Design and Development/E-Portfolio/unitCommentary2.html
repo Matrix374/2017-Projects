@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="LTR"> <!-- Language: English, Read from Left-To-Right -->
+
+<head>
+	<title>Irfan's E-Portfolio</title>
+	<link rel="stylesheet" href="mystyle.css"> <!-- Link to External Style Sheet -->
+</head>
+
+<body>
+	
+	<div id = "container">
+	
+		<a href = "article" id = "skip">Skip to content</a> <!--- Skip to Content for Screen Readers --->
+		
+		<header>
+			<h1>Irfan Hanafi</h1>
+		</header>
+		
+		<nav role="navigation"> <!--- Role is used for accessibility --->
+		
+			<ul>
+			
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="unitCommentary1.html">Web Dev & Programming</a></li>
+				<li class = "highlight"><a href="unitCommentary2.html">Computer Systems & Information Systems</a></li> <!--- Colour showing which page you are on --->
+				<li><a href="workExp.html">Work Experience</a></li>
+				
+			</ul>
+
+		</nav>
+		
+		<main> <!--- Main Body of the Website --->
+			
+			<article>
+				
+				<section id= "content">
+					
+					<img class = "unitPic2" src= "images/computerSystems.jpg" alt = "Computer System Fundamentals"> 
+					
+					<h2>Computer Systems Fundamentals</h2>
+					
+					<p>This unit covers the building blocks of computer logic. With the use of 1's and 0's and logic gates, we learn the fundamentals of computer and the systems governing their functions. We would also learn how to use ASSEMBLY, a low-level programming language which is also known as machine code.</p>
+					
+					<br>
+					
+					<p>Logic Gates are used to manipulate boolean inputs to preform certain processes. What we learn in this unit are how logic gates affect boolean logics, how to simplify boolean expressions and how to build an ALU and a full-adder.</p>
+					
+					<br>
+					
+					<p>Assembly language is a low-level language that makes machine code readable. As this is the closest thing to machine code, it is useful when it comes to understanding how computer hardware functions. As a programmer, assembly is as close to the processor as you can get, making it great for optimization and having complete control over the computers' resources.</p>
+					
+					<br><br>
+					
+					<img class = "unitPic2" src= "images/infoSystems.jpeg" alt = "Information Systems">
+					
+					<h2>Information Systems</h2>
+					
+					<p>This unit covers the use of networks of hardware and software that people and organizations use to manipulate data. We learn the Systems Development Lifecycle(SDLC) . management information and the usage of diagrams such as the Use Case Diagram and Entity Relationship Diagrams to convey how a system functions and the various datapoints within a system.
+					</p>
+					
+					<br>
+					
+					<p>Further along we will also use SQL to create a database for our coursework which involves designing and building a database for Ray's Rentals along with creating the relevant reports that are used to document the system's development. This course would prove useful in our field because a lot of the busy work such as documentation and presentations would be used in the work environment.</p>
+					
+				</section>
+				
+			</article>
+			
+			<aside id = "other"> <!-- For content not relevant in the main article -->
+				
+				<h3>COMPUTER SYSTEM FUNDAMENTALS</h4>
+				
+				<ul>
+					<li>LOGIC GATES</li>
+					<li><img src= "images/logicGates.jpg" alt= "Types of Logic Gates"></li>
+					<li>ASSEMBLY CODE</li>
+					<li><img src="images/assemblyCode.png" alt= "Assembly Code Window"></li>
+				</ul>
+				
+				<br>
+				
+				<h3>INFORMATION SYSTEMS</h3>
+				
+				<ul>
+					<li>USE CASE DIAGRAM</li>
+					<li><img src= "images/ucdDiagram.png" alt= "Use Case Diagram"></li>
+					<li>ENTITY RELATIONSHIP DIAGRAM</li>
+					<li><img src="images/erdDiagram.png" alt= "Entity Relationship Diagram"></li>
+				</ul>
+				
+			</aside>
+		
+		</main>
+		
+	</div>
+	
+	<footer> <!--- How to Contact Me --->
+	
+			<ul id= "phone">
+				<li>Call Me @</li>
+				<li id = "phoneNum">XXXX-XXXX-XXXX</li>
+			</ul>
+			
+			<ul id= "email">
+				<li>Email Me @</li>
+				<li><a href= "mailto:17098640.stu.mmu.ac.uk">17098640.stu.mmu.ac.uk</a></li>
+			</ul>
+			
+	</footer>
+	
+</body>
+
+</html>

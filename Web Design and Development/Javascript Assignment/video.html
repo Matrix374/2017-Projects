@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--- Website by Irfan Hanafi, 17098640 --->
+
+<html>
+
+<head>
+	<title>JS Video</title>
+	<script src = "scripts/videoScript.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Irfan , 17098640, 27/11/2017</h1>
+	</header>
+	
+	<section id = "videocontainer">
+		<video>
+			<source src="mmu.mp4"></source>
+			<source src="MMU.webm"></source>
+		</video>
+		
+		<div id="videoControls">
+			<button type = "button" id = "playPause"> Play </button>
+			<button type = "button" id = "stop"> Stop </button>
+			<button type = "button" id = "mute"> Mute </button>
+			<input type = "range" id = "seekBar" min = 0 max = 100 step = 1 value = 0>
+			<input type = "text" readonly id = "timeField" size = "4" />
+			<input type = "text" readonly id = "durationField" size = "4" />
+			<input type = "range" id = "volumeBar" min = 0.00 max = 1.00 step = 0.01 value = 1> <!-- min and max of .volume method is from 0 to 1 -->
+			<button type = "button" id = "fastForward"> >> </button>
+			
+			<select id = "playbackSelect">
+				<option value = 1.75> 1.75x </option>
+				<option value = 1.25> 1.25x </option>
+				<option value = 1.0> 1.0x </option>
+				<option value = 0.25> 0.25x </option>
+				<option value = 0.5> 0.5x </option>
+			</select>
+		</div>
+	</section>
+</body>
+
+</html>
